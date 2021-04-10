@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f1244eb3",
+		type: "checkmark",
+		title: "Survival",
+		icon: "minecraft:structure_void"
+	}],
+	rewards: [{
+		uid: "9da5f76c",
+		type: "command",
+		title: "Survival",
+		icon: "minecraft:structure_void",
+		command: "/gamemode survival",
+		player_command: true
+	}]
+}

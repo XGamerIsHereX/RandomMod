@@ -1,0 +1,25 @@
+{
+	title: "Hard",
+	icon: "minecraft:skull 1 5",
+	x: 2.0d,
+	y: 4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"056a928f"
+	],
+	tasks: [{
+		uid: "8cfbc47f",
+		type: "checkmark",
+		title: "Hard",
+		icon: "minecraft:skull 1 5"
+	}],
+	rewards: [{
+		uid: "f009bed2",
+		type: "command",
+		title: "hard",
+		icon: "minecraft:skull 1 5",
+		auto: "enabled",
+		command: "/difficulty hard",
+		player_command: true
+	}]
+}

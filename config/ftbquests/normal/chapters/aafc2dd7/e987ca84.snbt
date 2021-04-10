@@ -1,0 +1,23 @@
+{
+	title: "Infinite Storage",
+	icon: "refinedstorage:storage_disk 1 4",
+	x: -0.5d,
+	y: -1.0d,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "decf3571",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "dd91b621",
+		type: "item",
+		item: "refinedstorage:portable_grid 1 1"
+	},
+	{
+		uid: "dde7b3be",
+		type: "item",
+		item: "refinedstorage:storage_disk 1 4"
+	}]
+}

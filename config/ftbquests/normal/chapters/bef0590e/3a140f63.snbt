@@ -1,0 +1,19 @@
+{
+	title: "Do Time",
+	icon: "minecraft:clock",
+	x: 0.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c24408a9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8497f4f3",
+		type: "command",
+		title: "Do Time",
+		icon: "minecraft:clock",
+		command: "/gamerule dodaylghtcyclle true",
+		player_command: true
+	}]
+}

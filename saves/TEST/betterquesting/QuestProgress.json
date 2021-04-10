@@ -1,0 +1,15 @@
+{
+  "questProgress:9": {
+    "0:10": {
+      "questID:3": 0,
+      "completed:9": {
+        "0:10": {
+          "claimed:1": 0,
+          "uuid:8": "4a864a89-53c3-11eb-9b92-d45d64bce613",
+          "timestamp:4": 1617881052495
+        }
+      },
+      "tasks:9": {}
+    }
+  }
+}

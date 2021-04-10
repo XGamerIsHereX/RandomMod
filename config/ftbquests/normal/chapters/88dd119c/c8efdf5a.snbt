@@ -1,0 +1,22 @@
+{
+	title: "Keepinvntory",
+	icon: "minecraft:ender_chest",
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"056a928f"
+	],
+	tasks: [{
+		uid: "9dc36552",
+		type: "checkmark",
+		title: "keepinventory",
+		icon: "minecraft:ender_chest"
+	}],
+	rewards: [{
+		uid: "68dfa7a0",
+		type: "command",
+		title: "Keepinventory",
+		icon: "minecraft:ender_chest",
+		command: "/gamerule keepinventory true"
+	}]
+}

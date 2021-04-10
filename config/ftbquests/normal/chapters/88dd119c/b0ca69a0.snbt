@@ -1,0 +1,25 @@
+{
+	title: "Normal",
+	icon: "minecraft:skull 1 2",
+	x: 0.0d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"056a928f"
+	],
+	tasks: [{
+		uid: "b4d8858e",
+		type: "checkmark",
+		title: "Normal",
+		icon: "minecraft:skull 1 2"
+	}],
+	rewards: [{
+		uid: "ea9a1352",
+		type: "command",
+		title: "Normal",
+		icon: "minecraft:skull 1 2",
+		auto: "enabled",
+		command: "/difficulty normal",
+		player_command: true
+	}]
+}

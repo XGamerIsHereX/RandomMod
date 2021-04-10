@@ -1,0 +1,25 @@
+{
+	title: "Day",
+	icon: "minecraft:stained_glass_pane 1 4",
+	x: -0.5d,
+	y: 0.5d,
+	can_repeat: true,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "05c57905",
+		type: "checkmark",
+		title: "Time",
+		icon: "minecraft:stained_glass_pane 1 4"
+	}],
+	rewards: [{
+		uid: "612078da",
+		type: "command",
+		title: "Day Time",
+		icon: "minecraft:stained_glass_pane 1 4",
+		auto: "enabled",
+		command: "/time set day",
+		player_command: true
+	}]
+}

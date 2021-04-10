@@ -1,0 +1,23 @@
+{
+	title: "No Keepinventory",
+	icon: "minecraft:trapped_chest",
+	disable_toast: true,
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"056a928f"
+	],
+	tasks: [{
+		uid: "712cd066",
+		type: "checkmark",
+		title: "No Keepinventory",
+		icon: "minecraft:trapped_chest"
+	}],
+	rewards: [{
+		uid: "7077f634",
+		type: "command",
+		title: "No Keepinventory",
+		icon: "minecraft:trapped_chest",
+		command: "/gamerule keepinventory false"
+	}]
+}

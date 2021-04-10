@@ -1,0 +1,24 @@
+{
+	title: "Night",
+	icon: "minecraft:stained_glass_pane 1 15",
+	x: 0.5d,
+	y: 0.5d,
+	can_repeat: true,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "f3411a84",
+		type: "checkmark",
+		title: "Time",
+		icon: "minecraft:stained_glass_pane 1 15"
+	}],
+	rewards: [{
+		uid: "4e03235a",
+		type: "command",
+		title: "Night Time",
+		icon: "minecraft:stained_glass_pane 1 15",
+		command: "/time set night",
+		player_command: true
+	}]
+}

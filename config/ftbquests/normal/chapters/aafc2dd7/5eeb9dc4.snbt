@@ -1,0 +1,23 @@
+{
+	title: "Love",
+	icon: "betterquesting:extra_life",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"dd872e0c"
+	],
+	tasks: [{
+		uid: "e35db943",
+		type: "checkmark",
+		title: "Love",
+		icon: "betterquesting:extra_life"
+	}],
+	rewards: [{
+		uid: "78dfba03",
+		type: "command",
+		title: "Love",
+		icon: "betterquesting:extra_life",
+		auto: "enabled",
+		command: "/say You are the DEMON"
+	}]
+}

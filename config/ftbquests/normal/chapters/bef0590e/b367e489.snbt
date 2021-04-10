@@ -1,0 +1,17 @@
+{
+	title: "Do Not Do Time",
+	icon: "minecraft:clock",
+	x: 0.0d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "65a3208c",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "14e5090a",
+		type: "command",
+		title: "Do Not Do Time",
+		command: "/gamerule dodaylightcycle false"
+	}]
+}

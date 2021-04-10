@@ -1,0 +1,35 @@
+{
+	title: "Zen Furance",
+	icon: "furnaceoverhaul:zenith_furnace",
+	x: 0.5d,
+	y: -0.5d,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "b294653f",
+		type: "checkmark",
+		title: "Click Me"
+	}],
+	rewards: [{
+		uid: "8d6e2575",
+		type: "item",
+		item: "furnaceoverhaul:zenith_furnace"
+	},
+	{
+		uid: "eba0f624",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "furnaceoverhaul:processing_upgrade"
+		}
+	},
+	{
+		uid: "5bb1864d",
+		type: "item",
+		item: "mysticalagriculture:coal 1 4",
+		count: 64
+	}]
+}

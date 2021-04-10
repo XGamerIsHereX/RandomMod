@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "6aaa2ad5",
+		type: "checkmark",
+		title: "Infinite Power",
+		icon: "cyclicmagic:battery_infinite"
+	}],
+	rewards: [{
+		uid: "f71e4fff",
+		type: "item",
+		item: "cyclicmagic:battery_infinite"
+	}]
+}

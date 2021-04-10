@@ -1,0 +1,7 @@
+{
+	title: "Cheats For Admin",
+	icon: "ftbquests:barrier",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

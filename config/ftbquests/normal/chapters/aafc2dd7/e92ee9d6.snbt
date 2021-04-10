@@ -1,0 +1,37 @@
+{
+	title: "Creative Satchel",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thermalexpansion:satchel",
+		tag: {
+			Accessible: 1b
+		},
+		Damage: 32000s
+	},
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"5eeb9dc4"
+	],
+	tasks: [{
+		uid: "3f66d334",
+		type: "checkmark",
+		title: "Click Me"
+	}],
+	rewards: [{
+		uid: "6dfa2528",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 32000s
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	shape: "octagon",
+	tasks: [{
+		uid: "f1f8a28d",
+		type: "checkmark",
+		title: "Chose"
+	}],
+	rewards: [{
+		uid: "dd505cf1",
+		type: "command",
+		title: "No Commands In Chat",
+		icon: "minecraft:stained_glass_pane 1 8",
+		auto: "enabled",
+		command: "/gamerule sendCommandFeedback false",
+		player_command: true
+	}]
+}

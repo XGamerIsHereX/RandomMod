@@ -1,0 +1,24 @@
+{
+	title: "Please No",
+	icon: "minecraft:barrier",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"By completing this quest you will be unlocking the quest line [Why?]",
+		"The Quest Lines [Why?] is Full of CHEATS FULL QUESTS!"
+	],
+	tasks: [{
+		uid: "a7c10a3d",
+		type: "checkmark",
+		title: "Please No",
+		icon: "minecraft:barrier"
+	}],
+	rewards: [{
+		uid: "46c821ab",
+		type: "command",
+		title: ":)",
+		icon: "minecraft:barrier",
+		auto: "enabled",
+		command: "/say Why?! >;("
+	}]
+}

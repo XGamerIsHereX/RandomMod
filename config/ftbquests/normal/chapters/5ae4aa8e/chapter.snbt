@@ -1,0 +1,7 @@
+{
+	title: "Stage 1",
+	icon: "minecraft:log",
+	always_invisible: false,
+	group: -1998777956,
+	default_quest_shape: ""
+}
